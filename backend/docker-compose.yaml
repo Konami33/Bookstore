@@ -8,6 +8,23 @@ services:
       - "27017:27017"
     networks:
       - bookstore-network
+    environment:
+      MONGO_INITDB_DATABASE: bookstore
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "5000:5000"
+    networks:
+      - bookstore-network
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/bookstore # Connects to the MongoDB service
+    depends_on:
+      - mongo
 
 networks:
   bookstore-network:
