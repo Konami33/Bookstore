@@ -1,0 +1,48 @@
+[
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "publicationYear": 2008,
+      "description": "A guide to writing clean, maintainable code.",
+      "availableCopies": 12,
+      "price": 45.00
+    },
+    {
+      "title": "The Design Patterns",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "genre": "Software Engineering",
+      "publicationYear": 1994,
+      "description": "The classic book on design patterns for object-oriented software development.",
+      "availableCopies": 7,
+      "price": 60.00
+    },
+    {
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "genre": "Programming",
+      "publicationYear": 2008,
+      "description": "A book focused on the most elegant and beneficial features of JavaScript.",
+      "availableCopies": 15,
+      "price": 30.00
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "genre": "Software Engineering",
+      "publicationYear": 1975,
+      "description": "A collection of essays about software engineering and project management.",
+      "availableCopies": 8,
+      "price": 50.00
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "genre": "Computer Science",
+      "publicationYear": 1990,
+      "description": "A comprehensive guide to algorithms used in computer science and engineering.",
+      "availableCopies": 20,
+      "price": 80.00
+    }
+  ]
+  
